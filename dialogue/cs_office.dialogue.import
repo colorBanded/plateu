@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://l0ir528rhc15"
+path="res://.godot/imported/cs_office.dialogue-dc39075b773309a20ccae5e5369479b0.tres"
+
+[deps]
+
+source_file="res://dialogue/cs_office.dialogue"
+dest_files=["res://.godot/imported/cs_office.dialogue-dc39075b773309a20ccae5e5369479b0.tres"]
+
+[params]
+
+defaults=true

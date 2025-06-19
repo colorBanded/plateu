@@ -1,0 +1,26 @@
+~ start
+
+[shake]There was an incident hours ago near the production facilities[/shake]
+...: [speed=.9] Who was there [/speed]
+[shake][speed=0.3] I- [/shake]
+[shake][speed=0.3]I wasn't able to see. [/shake]
+[shake][speed=0.3]The room had collapsed in on itself. [/shake][/speed]
+[shake rate=20.0 level=5 connected=1][speed=0.3]All that was left was [wave][speed=0.1]a bit of their hand.[/speed][/wave]
+......
+...: Out.
+...: Now.
+
+=> END
+
+
+~ test
+Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
+Nathan: Here are some choices.
+- First one
+	Nathan: You picked the first one.
+- Second one
+	Nathan: You picked the second one.
+- Start again => start
+- End the conversation => END
+Nathan: For more information see the online documentation.
+=> END
